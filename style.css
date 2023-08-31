@@ -9,10 +9,17 @@ body {
 }
 
 .piano {
-    width: 1000px;
-    height: 250px;
+    /* width: 1000px; */
+    /* height: 250px; */
     margin: 50px auto;
     display: flex;
+    flex-direction: column;
+}
+
+.piano-box {
+    display: flex;
+    margin: 10px auto;
+    height: 250px;
 }
 
 .key {
@@ -38,7 +45,7 @@ body {
 .key-b {
     width: 50px;
     background: #000;
-    font-size: 30px;
+    font-size: 20px;
     color: #fff;
     height: 60%;
     margin-left: -25px;
